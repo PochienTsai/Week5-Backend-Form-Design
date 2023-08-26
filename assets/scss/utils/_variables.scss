@@ -380,10 +380,18 @@ $spacer: 1rem !default;
 $spacers: (
   0: 0,
   1: $spacer * 0.25,
+  // 4px
   2: $spacer * 0.5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  // 24px
+  5: $spacer * 2,
+  // 32px
+  6: $spacer * 2.5,
+  // 40px
+  7: $spacer * 3,
+  // 48px
+  8: $spacer * 4,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -1224,7 +1232,7 @@ $pagination-bg: $white !default;
 $pagination-border-radius: $border-radius !default;
 $pagination-border-width: $border-width !default;
 $pagination-margin-start: ($pagination-border-width * -1) !default;
-$pagination-border-color: $gray-300 !default;
+$pagination-border-color: $green !default;
 
 $pagination-focus-color: var(--#{$prefix}link-hover-color) !default;
 $pagination-focus-bg: $gray-200 !default;

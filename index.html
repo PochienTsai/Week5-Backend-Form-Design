@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>index</title>
+  <style>
+    .pagination .page-item.active .page-link {
+      background-color: #198754;
+      /* 設定選取頁數的背景顏色 */
+      border-color: #198754;
+      /* 設定選取頁數的邊框顏色 */
+    }
+
+    .pagination .page-link {
+      color: #198754;
+      /* 設定頁數連結的文字顏色 */
+      border-color: #198754;
+      /* 設定頁數連結的邊框顏色 */
+    }
+  </style>
+  <script type="module" crossorigin src="/Week5-Backend-Form-Design/assets/index-3839b31c.js"></script>
+  <link rel="stylesheet" href="/Week5-Backend-Form-Design/assets/index-9656ebc1.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <ul class="nav flex-column bg-light" style="min-width: 296px;">
+  <li class="nav-item my-5 ms-5">
+    <img src="/Week5-Backend-Form-Design/assets/logo-ANSWER-96108b88.svg" alt="logo-ANSWER" class="ms-2">
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-secondary" href="#"><span class="material-icons">assessment</span>
+      <span class="ms-3 fw-bold">Dashboard</span></a>
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-secondary" href="#"><span class="material-icons">question_answer</span> <span
+        class="ms-3 fw-bold">Question</span></a>
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-secondary" href="#"><span class="material-icons">assignment</span><span
+        class="ms-3 fw-bold">Assignment</span></a>
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-secondary" href="#"><span class="material-icons">video_library</span><span
+        class="ms-3 fw-bold">Course</span></a>
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-success active" href="#" aria-current="page" href="#"><span
+        class="material-icons">supervisor_account</span><span class="ms-3 fw-bold">Admin</span></a>
+  </li>
+  <li class="nav-item mb-4 ms-5">
+    <a class="nav-link link-secondary" href="#"><span class="material-icons">settings</span><span
+        class="ms-3 fw-bold">Setting</span></a>
+  </li>
+  <li class="nav-item ms-5 d-flex" style="margin-top : 338px; ">
+    <img class="user-img me-3" src="/Week5-Backend-Form-Design/assets/andychen-f14fef59.jpeg" alt="andychen">
+    <div class="user-info">
+      <p class="user-name mb-1">Andy Chen</p>
+      <p class="user-email mb-0">andy0401@mail.com</p>
+    </div>
+  </li>
+</ul>      <div class="row ms-5">
+        <div class="col-12" style="min-width:984px;">
+          <div class="admin-header d-flex mt-5">
+            <h2 class="fs-5">Admin</h2>
+            <span class="material-icons link-success ms-7">add</span>
+            <span class="link-success ms-2">Add New Admin</span>
+            <span class="material-icons" style="margin-left: 582px;">search</span>
+            <span class="material-icons ms-4">notifications_active</span>
+          </div>
+          <table class="table table-hover align-middle mt-7">
+            <thead>
+              <tr>
+                <th scope="col" class="col-1 align-middle">ID<span
+                    class="material-icons ms-2 align-bottom link-success">arrow_downward</span></th>
+                <th scope="col" class="col-3">Name</th>
+                <th scope="col" class="col-4">Email</th>
+                <th scope="col" class="col-2">Verified</th>
+                <th scope="col" class="col-2 text-end"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-3">#1</td>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#2</td>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#3</td>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#4</td>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#5</td>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#6</td>
+                <td>Fatimah Clark</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#7</td>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#8</td>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#9</td>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+              <tr>
+                <td class="py-3">#10</td>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end table-actions"><span class="material-icons me-6">visibility</span><span
+                    class="material-icons" data-bs-toggle="modal" data-bs-target="#edit-modal">edit</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <nav>
+            <ul class="pagination justify-content-end mt-8 mb-5">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- Vite核心關鍵 這行不能更動設定,放置於最後面-->
+  
+  <!-- 這裡放置第三方套件 -->
+
+  <!-- 這裡放置自己的程式碼(JS) -->
+
+</body>
+
+</html>

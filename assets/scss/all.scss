@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 我要改客製化變數,就改這裡(因為BS5的變數都是用!default,所以排在前面的權重較高,不會被後面的變數覆蓋)
+@import "./utils/variables";
+//等同於把所有BS5的scss都import進來
+@import "../../node_modules/bootstrap";
+
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+@import "./pages/index.scss";
